@@ -4,10 +4,12 @@ import './App.css';
 import Chart from './Components/chart';
 import Camembert from './Components/doughnut'; 
 import Formu from './Components/formu'; 
-
+import Scatter from './Components/points'; 
+import Line from './Components/line'; 
+import Weather from './Components/meteo'; 
+import Heure from './Components/heure'; 
 
 import {BrowserRouter as Router, Route, Link} from "react-router-dom";
-import { Doughnut } from 'react-chartjs-2';
 
 
 
@@ -16,7 +18,10 @@ function Dashboard() {
     <div>
       <h1></h1>
       <Camembert/>
-
+      <Scatter/>
+      <Line/>
+      <Heure/>
+      <Weather/>
       <Chart/>
     </div>
   );

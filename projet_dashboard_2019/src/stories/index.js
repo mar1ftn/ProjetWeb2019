@@ -9,6 +9,10 @@ import { Button, Welcome } from '@storybook/react/demo';
 import App from '../App';
 import Chart from '../Components/chart';
 import Camembert from '../Components/doughnut';
+import Scatter from '../Components/points';
+import Line from './Components/line'; 
+import meteo from './Components/meteo'; 
+import Heure from './Components/heure';
 
 storiesOf('Welcome', module).add('to Storybook', () => <Welcome showApp={linkTo('Button')} />);
 
@@ -28,6 +32,10 @@ storiesOf('Button', module)
 
   storiesOf('Ski', module)
   .add('Frequentations', () => <Chart />)
+  .add('Altitude skiable la plus haute', () => <Scatter />)
+  .add('Ché pas', () => <Line/>)
+  .add('meteo', () => <Weather/> )
+  .add('heure', () => <Heure/> )
   .add('%domaine', () => <Camembert />);
   
 
