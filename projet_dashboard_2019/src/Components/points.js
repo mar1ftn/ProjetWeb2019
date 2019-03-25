@@ -19,7 +19,7 @@ export default class Points extends PureComponent {
         width={400}
         height={400}
         margin={{
-          top: 20, right: 20, bottom: 20, left: 20,
+          top: 20, right: 75 , bottom: 20, left: 20,
         }}
       >
         <CartesianGrid />
