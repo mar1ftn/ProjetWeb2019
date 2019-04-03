@@ -28,9 +28,12 @@
 }
 
 .form{
-  margin-left: 10%;
-  margin-right: 10%;
+  margin-left: 2%;
+  margin-right: 2%;
+  padding-left: 2%;
+  padding-right: 2%;
   margin-bottom: 10%;
+
 }
 
 h4{

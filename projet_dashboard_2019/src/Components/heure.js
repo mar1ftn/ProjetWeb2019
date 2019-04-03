@@ -4,7 +4,11 @@ import Clock from 'react-live-clock';
 class Heure extends React.Component {
     render() {
         return (
-        <Clock format={'HH:mm:ss'} ticking={true} timezone={'US/Pacific'} />
+            <div>
+                <h2>Heure</h2>
+                <br></br><br></br>
+        <Clock format={'HH:mm:ss'} ticking={true} timezone={'FR'} />
+        </div>
         );
     }
 }

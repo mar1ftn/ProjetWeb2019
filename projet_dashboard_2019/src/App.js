@@ -24,22 +24,22 @@ function Dashboard() {
           <Col sm="2"></Col>
           <Col xs="4" sm="4">
           <Heure/>
+          <br></br><br></br>
           </Col>
-          <Col xs="8" sm="4"><Weather/></Col>
+          <Col xs="8" sm="4"><Weather/>
+          <br></br><br></br></Col>
           <Col sm="2"></Col>
         </Row>
-      
-      
-      
+
       
       <Row>
-          <Col md="12" lg="6"><Camembert/></Col>
-          <Col md="12" lg="6"><Chart/></Col>
+          <Col md="12" lg="6"><Camembert/><br></br><br></br></Col>
+          <Col md="12" lg="6"><Chart/><br></br><br></br></Col>
         </Row>
 
         <Row>
-          <Col sm="12" md="6"><Scatter/></Col>
-          <Col sm="12" md="6"><Line/></Col>
+          <Col sm="12" md="6"><Scatter/><br></br><br></br></Col>
+          <Col sm="12" md="6"><Line/><br></br><br></br></Col>
         </Row>
       
       
@@ -102,7 +102,7 @@ class App extends Component {
           <Col xs="12" sm="6">
           <br></br>
           <h4>
-            <Link to="/formulaire"><div className="Select">Ajout Skiable</div></Link>
+            <Link to="/formulaire"><div className="Select">Ajouter</div></Link>
           </h4>
           <br></br>
           </Col>

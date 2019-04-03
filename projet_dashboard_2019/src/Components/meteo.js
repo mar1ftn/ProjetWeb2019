@@ -1,4 +1,6 @@
 import React, { Component } from 'react';
+import { Container, Row, Col } from 'reactstrap';
+import { Button, Form, FormGroup, Label, Input, FormText } from 'reactstrap';
 
 const API = "ac156d7e0497ba1cd37142f49280cc88"
 
@@ -31,11 +33,24 @@ class Weather extends Component {
     render() {
         return (
             <div>
-                <h2 className="py-2">Weather</h2>
+                <h2 className="py-2">Météo des stations</h2>
+                <FormGroup row>
+                    <Label for="exampleSelect" sm={2}>Select</Label>
+                        <Col sm={10}>
+                            <Input type="select" name="select" id="exampleSelect" >
+                                <option>Tignes</option>
+                                <option>La Clusaz</option>
+                                <option>Méribel</option>
+                                <option>Val Thorens</option>
+                                <option>La Plagne</option>
+                                <option>Les Arcs</option>
+						    </Input>
+                        </Col>
+                        </FormGroup>
                 <p>Temperature: {this.state.temperature}°C</p>
-                <p>City: {this.state.city}</p>
-                <p>Country: {this.state.country}</p>
-                <p>Humidity: {this.state.humidity}%</p>
+                <p>Station: {this.state.city}</p>
+                <p>Pays: {this.state.country}</p>
+                <p>Humidité: {this.state.humidity}%</p>
                 <p>Description: {this.state.description}</p>
             </div>
         );
