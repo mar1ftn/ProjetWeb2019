@@ -3,9 +3,11 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "axios": "^0.18.0",
     "boostrap": "^2.0.0",
     "bootstrap": "^4.3.1",
     "chart.js": "^2.7.3",
+    "randomcolor": "^0.5.4",
     "react": "^16.8.4",
     "react-chartjs-2": "^2.7.4",
     "react-dom": "^16.8.4",
@@ -13,7 +15,9 @@
     "react-router-dom": "^4.3.1",
     "react-scripts": "2.1.8",
     "reactstrap": "^7.1.0",
-    "recharts": "^1.5.0"
+    "recharts": "^1.5.0",
+    "remove-whitespace": "^1.1.0",
+    "text-cleaner": "^0.3.0"
   },
   "scripts": {
     "start": "react-scripts start",

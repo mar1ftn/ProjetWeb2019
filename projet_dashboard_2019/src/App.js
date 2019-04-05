@@ -8,6 +8,8 @@ import Scatter from './Components/points';
 import Line from './Components/line'; 
 import Weather from './Components/meteo'; 
 import Heure from './Components/heure'; 
+import Radial from './Components/radial'; 
+
 
 import {BrowserRouter as Router, Route, Link} from "react-router-dom";
 import { Container, Row, Col } from 'reactstrap';
@@ -38,7 +40,8 @@ function Dashboard() {
         </Row>
 
         <Row>
-          <Col sm="12" md="6"><Scatter/><br></br><br></br></Col>
+      
+          <Col sm="12" md="6"><Radial/><br></br><br></br></Col>
           <Col sm="12" md="6"><Line/><br></br><br></br></Col>
         </Row>
       
